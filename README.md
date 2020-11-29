@@ -1,6 +1,6 @@
 # Go Weather CLI
 
-Heyo you can fetch the current weather
+Heyo you can fetch the current weather and check out a simple example of how to create mocks for your go tests
   
 ![Weather](./weather.gif)
 
