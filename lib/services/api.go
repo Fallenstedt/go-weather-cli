@@ -18,7 +18,7 @@ func NewAPI() *API {
 }
 
 func (a API) GetCurrentWeather(res *models.Response) error {
-	d:= "https://api.openweathermap.org/data/2.5/weather?lat=45.4889&lon=122.8014&appid=1ed583db37628eeebe28831cb486ee00"
+	d:= "https://api.openweathermap.org/data/2.5/weather?lat=45.4889&lon=122.8014&appid={apiKeyFromOpenWeather}"
 	resp, err := http.Get(d)
 
 	if err != nil {
