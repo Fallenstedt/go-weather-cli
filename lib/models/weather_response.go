@@ -1,6 +1,5 @@
 package models
 
-
 type Response struct {
 	Coord   Coord        `json:"coord"`
 	Weather []WeatherRes `json:"weather"`
@@ -8,19 +7,19 @@ type Response struct {
 }
 
 type Main struct {
-	Temp float64 `json:"temp"`
+	Temp      float64 `json:"temp"`
 	FeelsLike float64 `json:"feels_like"`
-	TempMin float64 `json:"temp_min"`
-	TempMax float64 `json:"temp_max"`
-	Pressure uint `json:"pressure"`
-	Humidity uint `json:"humidity"`
+	TempMin   float64 `json:"temp_min"`
+	TempMax   float64 `json:"temp_max"`
+	Pressure  uint    `json:"pressure"`
+	Humidity  uint    `json:"humidity"`
 }
 
 type WeatherRes struct {
-	ID uint `json:"id"'`
-	Main string `json:"main"`
+	ID          uint   `json:"id"'`
+	Main        string `json:"main"`
 	Description string `json:"description"`
-	Icon string `json"icon"`
+	Icon        string `json"icon"`
 }
 
 type Coord struct {

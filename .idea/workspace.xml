@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c66b45a3-ae62-49d4-8677-18bda86a8752" name="Default Changelist" comment="" />
+    <list default="true" id="c66b45a3-ae62-49d4-8677-18bda86a8752" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/weather_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/weather_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/api_mock.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/api_mock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/date.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/date.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/date_mock.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/date_mock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weather.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/weather.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +25,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.15.2/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -31,22 +43,26 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/models" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/lib/services" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.weather_test.go">
+  <component name="RunManager" selected="Go Build.go run main.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-weather" />
       <working_directory value="$PROJECT_DIR$" />
@@ -110,49 +126,66 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606341110147" />
-    <state x="542" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606341059049">
+    <state x="542" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606416391110">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="542" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606341059048" />
+    <state x="542" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606416391110" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606417837570">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606417837570" />
     <state width="774" height="466" key="DebuggerActiveHint" timestamp="1606273156224">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="774" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1606273156224" />
-    <state width="1638" height="279" key="GridCell.Tab.0.bottom" timestamp="1606341765332">
+    <state width="1638" height="278" key="GridCell.Tab.0.bottom" timestamp="1606444851266">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606341765332" />
-    <state width="1638" height="279" key="GridCell.Tab.0.center" timestamp="1606341765331">
+    <state width="1638" height="278" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606444851266" />
+    <state width="3398" height="520" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606353266189" />
+    <state width="1638" height="278" key="GridCell.Tab.0.center" timestamp="1606444851265">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606341765331" />
-    <state width="1638" height="279" key="GridCell.Tab.0.left" timestamp="1606341765330">
+    <state width="1638" height="278" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606444851265" />
+    <state width="3398" height="520" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606353266188" />
+    <state width="1638" height="278" key="GridCell.Tab.0.left" timestamp="1606444851264">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606341765330" />
-    <state width="1638" height="279" key="GridCell.Tab.0.right" timestamp="1606341765332">
+    <state width="1638" height="278" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606444851264" />
+    <state width="3398" height="520" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606353266187" />
+    <state width="1638" height="278" key="GridCell.Tab.0.right" timestamp="1606444851265">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606341765332" />
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1606340912995">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="278" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606444851265" />
+    <state width="3398" height="520" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606353266189" />
+    <state width="3398" height="520" key="GridCell.Tab.1.bottom" timestamp="1606353266191">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606340912995" />
-    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1606340912994">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="3398" height="520" key="GridCell.Tab.1.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606353266191" />
+    <state width="3398" height="520" key="GridCell.Tab.1.center" timestamp="1606353266190">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606340912994" />
-    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1606340912994">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="3398" height="520" key="GridCell.Tab.1.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606353266190" />
+    <state width="3398" height="520" key="GridCell.Tab.1.left" timestamp="1606353266189">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606340912994" />
-    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1606340912994">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="3398" height="520" key="GridCell.Tab.1.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606353266189" />
+    <state width="3398" height="520" key="GridCell.Tab.1.right" timestamp="1606353266190">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606340912994" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606025300828">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="3398" height="520" key="GridCell.Tab.1.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606353266190" />
+    <state x="1229" y="359" key="SettingsEditor" timestamp="1606350965507">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1229" y="359" key="SettingsEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1606350965507" />
+    <state x="1034" y="320" width="1372" height="928" key="search.everywhere.popup" timestamp="1606353084920">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606025300828" />
+    <state x="1034" y="320" width="1372" height="928" key="search.everywhere.popup/0.0.3440.1440@0.0.3440.1440" timestamp="1606353084920" />
   </component>
 </project>

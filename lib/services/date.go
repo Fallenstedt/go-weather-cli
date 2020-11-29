@@ -6,7 +6,7 @@ type IDateService interface {
 	GetCurrentDate() string
 }
 
-type DateService struct {}
+type DateService struct{}
 
 func NewDateService() *DateService {
 	return &DateService{}

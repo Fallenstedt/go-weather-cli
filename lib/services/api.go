@@ -11,14 +11,15 @@ type IAPI interface {
 	GetCurrentWeather(res *models.Response) error
 }
 
-type API struct {}
+type API struct{}
 
 func NewAPI() *API {
 	return &API{}
 }
 
 func (a API) GetCurrentWeather(res *models.Response) error {
-	resp, err := http.Get("https://api.openweathermap.org/data/2.5/weather?lat=45.4889&lon=122.8014&appid=d5ffe54323633376b81fa997313518cd")
+	d:= "https://api.openweathermap.org/data/2.5/weather?lat=45.4889&lon=122.8014&appid=1ed583db37628eeebe28831cb486ee00"
+	resp, err := http.Get(d)
 
 	if err != nil {
 		return err

@@ -12,7 +12,7 @@ type IWeather interface {
 }
 
 type Weather struct {
-	api services.IAPI
+	api  services.IAPI
 	date services.IDateService
 }
 
@@ -37,9 +37,5 @@ func (w Weather) GetWeather() string {
 }
 
 func (w Weather) convertKelvinToFahrenheit(k float64) uint {
-	return uint((k - 273.15) * (9/5) + 32)
+	return uint((k-273.15)*(9/5) + 32)
 }
-
-
-
-
